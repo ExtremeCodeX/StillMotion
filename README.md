@@ -27,7 +27,19 @@ scripts/build-android.sh debug
 
 The signed test APK is generated at `build/debug/StillMotion-debug.apk`.
 
-Host tests cover Rust and Java playback policy, the JNI bridge and malformed packs. An offline Android emulator verified import and preview. A short physical-device test observed low CPU activity after the wallpaper was hidden. That test did not establish effects on gaming FPS or battery life.
+Host tests cover Rust and Java playback policy, the JNI bridge, and malformed packs. Import and preview also passed in an offline Android emulator.
+
+### Physical-device test
+
+StillMotion **0.4.4** was sampled with read-only ADB commands on a Galaxy A15 5G. These results apply to that build and the sampled intervals.
+
+| Scenario | Observation |
+| --- | --- |
+| Home screen after animation | The StillMotion process recorded no additional CPU ticks during a 20-second interval. |
+| Gameplay with the wallpaper hidden | The process accumulated **10 ms of CPU time over roughly 6 seconds**. |
+| Process memory | About **65 MiB PSS** in one gameplay sample and **86–87 MiB PSS** in samples after the lock and unlock cycles. These figures include the whole app process. |
+
+The ADB connection dropped after the gameplay sample. Game FPS and GPU activity were not measured. The USB connection was supplying power, so this test did not measure battery life.
 
 ## License
 

@@ -27,7 +27,19 @@ scripts/build-android.sh debug
 
 O APK de teste assinado é gerado em `build/debug/StillMotion-debug.apk`.
 
-Os testes locais cobrem as políticas de reprodução em Rust e Java, a integração JNI e arquivos de pacote inválidos. A importação e a prévia foram verificadas em um emulador Android offline. Um teste curto em aparelho físico registrou pouca atividade de CPU após o wallpaper ficar oculto. Essa coleta não mede o impacto no FPS de jogos nem na autonomia.
+Os testes locais cobrem as políticas de reprodução em Rust e Java, a integração JNI e pacotes inválidos. A importação e a prévia também passaram em um emulador Android offline.
+
+### Teste em aparelho físico
+
+Medimos o StillMotion **0.4.4** em um Galaxy A15 5G com comandos ADB de leitura. Os resultados valem para aquela versão e para os intervalos amostrados.
+
+| Cenário | Resultado |
+| --- | --- |
+| Tela inicial após a animação | O contador de CPU do processo do StillMotion ficou parado por **20 segundos**. |
+| Jogo com o wallpaper oculto | O processo acumulou **10 ms de CPU em cerca de 6 segundos**. |
+| Memória do processo | Cerca de **65 MiB de PSS** em uma amostra durante o jogo e **86–87 MiB de PSS** nas amostras após os ciclos de bloqueio e desbloqueio. Os valores incluem o processo inteiro. |
+
+A conexão ADB caiu após a amostra no jogo. FPS e atividade da GPU ficaram sem medição. O cabo USB estava fornecendo energia, então essa coleta não mede autonomia.
 
 ## Licença
 
