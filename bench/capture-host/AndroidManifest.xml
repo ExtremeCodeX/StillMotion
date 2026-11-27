@@ -1,0 +1,8 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dev.stillmotion.capturehost">
+    <uses-sdk android:minSdkVersion="26" android:targetSdkVersion="28"/>
+    <application android:label="StillMotion capture" android:allowBackup="false"
+        android:theme="@android:style/Theme.Material.Wallpaper.NoTitleBar">
+        <activity android:name=".CaptureActivity" android:exported="true"/>
+    </application>
+</manifest>

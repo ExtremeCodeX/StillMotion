@@ -1,0 +1,3 @@
+<wallpaper xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="@string/flyme_description"
+    android:thumbnail="@drawable/stillmotion_icon"/>

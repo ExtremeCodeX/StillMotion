@@ -1,0 +1,1 @@
+data,modelo,android,one_ui,build,variante,tema,cenario,repeticao,duracao_s,brilho,refresh_hz,rede,modo_energia,temperatura_inicio_c,temperatura_fim_c,bateria_inicio_pct,bateria_fim_pct,desbloqueio,primeiro_quadro_ms,poster_final_ms,teardown_ms,fps_mediano,frame_p50_ms,frame_p95_ms,frame_p99_ms,jank,pss_kib,frames_proprios_repouso,crash_anr,observacoes

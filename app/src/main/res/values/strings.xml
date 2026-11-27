@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name" translatable="false">StillMotion</string>
+    <string name="wallpaper_description">Papel de parede com movimento breve no desbloqueio.</string>
+    <string name="dunes">Dunas ao entardecer</string>
+    <string name="orbit">Órbita azul</string>
+    <string name="static_mode">Sempre estático</string>
+    <string name="static_build_description">Esta versão mostra a imagem estática e registra eventos de diagnóstico.</string>
+    <string name="no_picker">Procure o StillMotion em Papel de parede e estilo nas configurações do aparelho.</string>
+    <string name="open_diagnostics">Diagnóstico do desbloqueio</string>
+    <string name="copy_diagnostics">Copiar</string>
+    <string name="diagnostics_android">StillMotion 0.7.0 · Android %1$s (API %2$d)</string>
+    <string name="diagnostics_empty">Sem eventos nesta execução. Aplique o StillMotion, bloqueie e desbloqueie a tela.</string>
+    <string name="orbita_gas_effect">Efeito de bolha gasosa</string>
+    <string name="flyme_wallpaper">StillMotion animado</string>
+    <string name="flyme_description">Papéis de parede animados do StillMotion.</string>
+    <string name="community_import">Importar pacote de wallpapers</string>
+    <string name="community_working">Preparando pacote…</string>
+    <string name="community_saved">Pacote importado.</string>
+    <string name="community_failed">Não foi possível importar. Confira o formato e os limites do pacote.</string>
+    <string name="orbita_after">Continuar ondas após o desbloqueio</string>
+    <string name="settings">Configurações</string>
+    <string name="dev_tools">Ferramentas dev</string>
+    <string name="more_options">Mais opções</string>
+    <string name="back">Voltar</string>
+    <string name="appearance">Aparência do app</string>
+    <string name="light">Claro</string>
+    <string name="dark">Escuro</string>
+    <string name="language">Idioma</string>
+    <string name="english" translatable="false">English</string>
+    <string name="portuguese" translatable="false">Português (Brasil)</string>
+    <string name="github_profile">Abrir o perfil de ExtremeCodeX no GitHub</string>
+    <string name="no_browser">Nenhum navegador disponível.</string>
+    <string name="lock_preview">Tela de bloqueio</string>
+    <string name="home_preview">Tela inicial</string>
+    <string name="preview_description">Prévia de %1$s</string>
+    <string name="apply_wallpaper">Aplicar wallpaper</string>
+    <string name="github_owner" translatable="false">ExtremeCodeX</string>
+    <string name="github_brand" translatable="false">GitHub</string>
+    <string name="save_probe_poster">Salvar imagem estática</string>
+    <string name="poster_exported">Imagem salva.</string>
+    <string name="poster_export_failed">Não foi possível salvar a imagem.</string>
+    <string name="empty_library">Sua galeria está vazia</string>
+    <string name="empty_library_description">Importe um pacote para visualizar e aplicar seus wallpapers.</string>
+</resources>

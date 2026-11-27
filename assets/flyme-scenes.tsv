@@ -1,0 +1,24 @@
+# key	family	title	component
+cosmic_v1	Cosmic	Nebula	com.meizu.flyme.sdkstage.wallpaper.cosmic.CosmicWallpaper
+cosmic_v3	Cosmic	Sunrise	com.meizu.flyme.sdkstage.wallpaper.cosmic.CosmicWallpaperV3
+cosmic_v4	Cosmic	Beyond	com.meizu.flyme.sdkstage.wallpaper.cosmic.CosmicWallpaperV4
+cosmic_v6	Cosmic	Rush	com.flyme.alive.CosmicWallpaperV6
+cosmic_v7	Cosmic	Crush	com.flyme.alive.CosmicWallpaperV7
+cosmic_v8	Cosmic	Dawn	com.flyme.alive.CosmicWallpaperV8
+cosmic_v9	Cosmic	Space	com.flyme.alive.CosmicWallpaperV9
+cosmic_v10	Cosmic	Vanguard	com.flyme.alive.CosmicWallpaperV10
+cosmic_v11	Cosmic	Stardust	com.flyme.alive.CosmicWallpaperV11
+cosmic_v12	Cosmic	Midnight	com.flyme.alive.CosmicWallpaperV12
+cosmic_v13	Cosmic	Daybreak	com.flyme.alive.CosmicWallpaperV13
+cosmic_v14	Cosmic	Purple Twilight	com.flyme.alive.CosmicWallpaperV14
+cosmic_v15	Cosmic	White	com.flyme.alive.CosmicWallpaperV15
+phoenix_v1	Cosmic Phoenix	Passion	com.flyme.alive.mixer.CosmicPhoenixWallpaperV1
+phoenix_v2	Cosmic Phoenix	Infinite	com.flyme.alive.mixer.CosmicPhoenixWallpaperV2
+phoenix_v3	Cosmic Phoenix	Future	com.flyme.alive.mixer.CosmicPhoenixWallpaperV3
+phoenix_v4	Cosmic Phoenix	Space	com.flyme.alive.mixer.CosmicPhoenixWallpaperV4
+phoenix_v5	Cosmic Phoenix	Star	com.flyme.alive.mixer.CosmicPhoenixWallpaperV5
+bubble_v1	Bubble	Ramune soda	com.meizu.flyme.sdkstage.wallpaper.bubble.BubbleWallpaper
+bubble_v2	Bubble	Coffee soda	com.meizu.flyme.sdkstage.wallpaper.bubble.BubbleWallpaperV2
+bubble_v3	Bubble	Matcha latte	com.meizu.flyme.sdkstage.wallpaper.bubble.BubbleWallpaperV3
+bubble_v4	Bubble	Peach Oolong	com.meizu.flyme.sdkstage.wallpaper.bubble.BubbleWallpaperV4
+bubble_v5	Bubble	Blueberry soda	com.meizu.flyme.sdkstage.wallpaper.bubble.BubbleWallpaperV5

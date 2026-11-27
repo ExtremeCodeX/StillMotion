@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "backend": "canvas-zoom",
+  "source": "Arte procedural original gerada por scripts/generate-themes.py",
+  "size_px": [
+    864,
+    1920
+  ],
+  "duration_ms": 1200,
+  "fps_cap": 24,
+  "initial_zoom_percent": 115,
+  "initial_image": "poster.webp",
+  "final_image": "poster.webp",
+  "sha256": {
+    "poster.webp": "1fc867a8a01e2d93c1405e53684b10efad5553503ebfb2cc9893737e0f878537",
+    "motion.bin": "dfdcc42fd77be43bc54e85e8d3fdad6a33b1261f8cee1a3d21264c0b3211edb0"
+  }
+}

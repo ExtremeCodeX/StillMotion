@@ -1,0 +1,36 @@
+/apks/
+/inputs/apks/
+/analysis/
+/build/
+/native/target/
+__pycache__/
+*.keystore
+*.jks
+
+# Entradas locais e artefatos binários da estação de trabalho.
+/*.stillmotion.zip
+/*.mp4
+/tmpjgsms1yk/
+
+# Local imports, authoring media and device evidence.
+/temas/
+/assets/orbita/
+*.stillmotion.zip
+*.apk
+!/StillMotion-0.7.0.apk
+/bench/results/
+/docs/apk-reports/
+/docs/flyme-videos.md
+/docs/platform-research.md
+/WallpaperProject/
+.env
+.env.*
+*.trace
+*.perfetto-trace
+*.bugreport
+*.log
+
+# Local credentials and tooling state.
+/.aws/
+/.agents/
+/.codex/
